@@ -1,0 +1,7 @@
+import math
+x = int(input())
+m = ((10/100)*x)
+v= (x-m)
+y = (x-100)
+q=min(v,y)
+print(int(q))
